@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>voltage. | games</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="config/main.css" />
+    <link rel="stylesheet" href="config/custom.css" />
+
+    <!-- IMPORTANT: defer -->
+    <script src="config/main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="/" class="nav-logo">
+          <i class="fa-solid fa-bolt"></i> voltage.
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <a href="/games.html" class="nav-link">
+          <i class="fa-solid fa-gamepad"></i> Games
+        </a>
+
+        <div class="nav-right">
+    <a href="/ai.html" class="nav-link">
+      <i class="fa-solid fa-robot"></i> AI
+    </a>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="center">
+      <h1 id="title">voltage.</h1>
+      <p id="subtitle">
+        if any games are broken, please report it
+        <a
+          href="https://forms.gle/4QnQ9jDzaKG3W1Xy9"
+          target="_blank"
+          rel="noopener"
+        >here</a>.
+      </p>
+    </div>
+
+    <div class="center">
+      <input type="text" id="searchInput" placeholder="Search games" />
+    </div>
+
+    <!-- GAMES -->
+    <div id="gamesContainer" class="games-container">
+      <div class="game" data-name="1 On 1 Soccer" data-url="1on1soccer">
+        <img src="/games/1on1soccer/logo.jpg" alt="1 On 1 Soccer" />
+        <p>1 On 1 Soccer</p>
+      </div>
+
+      <div class="game" data-name="1v1.lol" data-url="1v1lol">
+        <img src="/games/1v1lol/splash.png" alt="1v1.lol" />
+        <p>1v1.lol</p>
+      </div>
+
+      <div class="game" data-name="Slime Rancher" data-url="slimerancher">
+        <img src="/games/slimerancher/img.webp" alt="Slime Rancher" />
+        <p>Slime Rancher</p>
+      </div> 
+
+      <div class="game" data-name="Super Mario 64" data-url="mario64">
+        <img src="/games/mario64/logo.png" alt="Super Mario 64" />
+        <p>Super Mario 64</p>
+      </div>
+
+      <div class="game" data-name="Pokémon FireRed" data-url="pkmnfirered">
+        <img src="/games/pkmnfirered/logo.png" alt="Pokémon FireRed" />
+        <p>Pokémon FireRed</p>
+      </div>
+
+      <div class="game" data-name="Pokémon Platinum" data-url="pkmnplatinum">
+        <img src="/games/pkmnplatinum/logo.png" alt="Pokémon Platinum" />
+        <p>Pokémon Platinum</p>
+      </div>
+
+      <div class="game" data-name="Drive Mad" data-url="drivemad">
+        <img src="/games/drivemad/logo.png" alt="Drive Mad" />
+        <p>Drive Mad</p>
+      </div>
+    </div>
+  </body>
+</html>
